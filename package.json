@@ -44,7 +44,7 @@
     "traceur": "^0.0.111"
   },
   "dependencies": {
-    "bootstrap": "^3.3.6",
+    "bootstrap": "^4.0.0",
     "classnames": "^2.2.5",
     "jquery": "^3.0.0",
     "moment": "^2.13.0",
