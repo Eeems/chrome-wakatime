@@ -5,7 +5,7 @@ describe('Alert', function() {
 
     beforeEach(function() {
         // Setup our tools
-        React = require('react/addons');
+        React = require('react');
         Alert = require('../../assets/js/components/Alert.jsx');
         TestUtils = React.addons.TestUtils;
         // Create the React component here using TestUtils and store into Component

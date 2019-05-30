@@ -1,5 +1,5 @@
 {
-  "name": "WakaTime",
+  "name": "wakatime",
   "ignore": [
     "**/.*",
     "node_modules",

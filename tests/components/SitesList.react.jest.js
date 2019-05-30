@@ -5,7 +5,7 @@ describe('SitesList', function() {
 
     beforeEach(function() {
         // Setup our tools
-        React = require('react/addons');
+        React = require('react');
         SitesList = require('../../assets/js/components/SitesList.jsx');
         TestUtils = React.addons.TestUtils;
         // Create the React component here using TestUtils and store into Component

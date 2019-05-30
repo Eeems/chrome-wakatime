@@ -5,7 +5,7 @@ describe('Options', function() {
 
     beforeEach(function() {
         // Setup our tools
-        React = require('react/addons');
+        React = require('react');
         Options = require('../../assets/js/components/Options.jsx');
         TestUtils = React.addons.TestUtils;
         // Create the React component here using TestUtils and store into Component

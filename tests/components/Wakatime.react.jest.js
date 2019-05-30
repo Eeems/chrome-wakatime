@@ -5,7 +5,7 @@ describe('Wakatime', function() {
 
     beforeEach(function() {
         // Setup our tools
-        React = require('react/addons');
+        React = require('react');
         Wakatime = require('../../assets/js/components/Wakatime.jsx');
         TestUtils = React.addons.TestUtils;
         // Create the React component here using TestUtils and store into Component

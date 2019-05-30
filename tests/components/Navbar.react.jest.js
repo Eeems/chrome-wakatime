@@ -5,7 +5,7 @@ describe('Navbar', function() {
 
     beforeEach(function() {
         // Setup our tools
-        React = require('react/addons');
+        React = require('react');
         Navbar = require('../../assets/js/components/Navbar.jsx');
         TestUtils = React.addons.TestUtils;
         // Create the React component here using TestUtils and store into Component

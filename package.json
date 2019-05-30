@@ -14,14 +14,14 @@
     "lint"
   ],
   "jest": {
-    "testFileExtensions": [
-      "jest.js"
-    ],
-    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
-    "testDirectoryName": "tests",
+    "testRegex": "(/tests/.*|(\\.|/))\\.jest\\.js?$",
+    "transform": {
+      ".*": "<rootDir>/node_modules/babel-jest"
+    },
     "unmockedModulePathPatterns": [
       "<rootDir>/node_modules/react"
-    ]
+    ],
+    "testURL": "http://localhost/"
   },
   "private": true,
   "devDependencies": {
