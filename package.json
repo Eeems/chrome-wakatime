@@ -48,7 +48,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "classnames": "^2.2.5",
+    "classnames": "^2.3.1",
     "jquery": "^3.4.0",
     "moment": "^2.13.0",
     "react": "^16.2.0",
